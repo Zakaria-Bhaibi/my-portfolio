@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+  font-family :'sfmono';
+  src : url('../fonts/SFMono.otf') format(onlythefamily);
+}
 
 
 #container {
@@ -14,8 +17,8 @@
 @media(max-width : 576px){
   #logo {
     content:url("logo-mobile.png");
-    height : 90px;
-    width : 150px;
+    height : 45px;
+    width : 75px;
     display:block;
     margin-right: auto;
   }

@@ -8,8 +8,15 @@ export default {
     extend: {
       fontFamily : {
         alata : ['Alata'],
+        sfmono : ['sfmono'],
+      },
+      colors:{
+        'lightgreen':'#64FFDA',
+        'lightwhite':'#CCD6F6',
+        'lightwhite2':'#8892B0',
       }
     },
+    
   },
   plugins: [],
 }
